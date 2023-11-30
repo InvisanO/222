@@ -3,7 +3,6 @@ public class Nauczyciel extends Osoba {
     private String przedmiot;
     private int doswiadczenie;
 
-
     public Nauczyciel(String imie, String nazwisko, int telefon, String email, String haslo, String przedmiot, int doswiadczenie, int zarobki) {
         super(imie, nazwisko, telefon, email, haslo);
         this.przedmiot = przedmiot;
